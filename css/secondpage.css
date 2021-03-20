@@ -1,0 +1,91 @@
+.second_page {
+    margin: 0px;
+    background-color: darkslategray;
+    width: 1400px;
+    height: 700px;
+}
+
+.second_wrapper {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20em;
+}
+
+.second_wrapper::after {
+    content: "";
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.cards_promo {
+    width: 842px;
+    height: 308px;
+}
+
+.first {
+    position: absolute;
+    top: 20%;
+    left: 16%;
+}
+
+.second {
+    top: 0%;
+    left: 30.5%;
+    position: absolute;
+}
+
+.three {
+    top: 20%;
+    right: 35%;
+    position: absolute;
+}
+
+.marketing_line {
+    display: flex;
+    position: absolute;
+    width: 572px;
+    height: 35px;
+    top: 1111px;
+    left: 15%;
+}
+
+.feedback {
+    position: absolute;
+    top: 1200px;
+    left: 270px;
+}
+
+.start_text {
+    position: absolute;
+    top: 1200px;
+    left: 797px;
+}
+
+.backgroundcolor {
+    background-color: darkslategray;
+    width: 1400px;
+    height: 700px;
+}
+
+.feedback1 {
+    position: absolute;
+    top: 1450px;
+    left: 269px;
+}
+
+.start_text1 {
+    position: absolute;
+    top: 1450px;
+    left: 797px;
+}

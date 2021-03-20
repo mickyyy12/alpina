@@ -1,0 +1,23 @@
+                @media (max-width: 1541px) {
+                    .block_body {
+                        padding: calc(20px+(50-20)*((100vw-320px)/(1541-320)));
+                    }
+                    .imgbackground {
+                        padding: calc(20px+(50-20)*((100vw-320px)/(1541-320)));
+                        margin-bottom: calc(21px+(50-20)*((100vw-320px)/(1500-320)));
+                        font-size: calc(16px+(50-20)*((100vw-320px)/(1541-320)));
+                    }
+                    .header {
+                        padding: calc(30px+(50-20)*((100vw-320px)/(1500-320)));
+                    }
+                    .logo {
+                        padding: calc(20px+(50-20)*((100vw-320px)/(1500-320)));
+                    }
+                    .nav {
+                        font-size: calc(16px+(50-20)*((100vw-320px)/(379-320)));
+                        padding: calc(20px+(50-20)*((100vw-320px)/(379-320)));
+                    }
+                    .marketing_line {
+                        padding: calc(20px+(50-20)*((100vw-320px)/(1111-320)));
+                    }
+                }
